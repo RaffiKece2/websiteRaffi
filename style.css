@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+.div3 {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    box-shadow: 0 0 300px aqua;
+    border-radius: 100%;
+}
+.head1 {
+    position: fixed;
+    top: 250px;
+    left: 230px;
+    color: aqua;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.div1 {
+    position: fixed;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    bottom: 285px;
+    left: 230px;
+}
+.div2 {
+    position: fixed;
+    color: rgb(8, 255, 226);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    bottom: 200px;
+    left: 220px;
+}
+.div4 {
+    position: absolute;
+    bottom: 195px;
+    left: 400px;
+}
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(188, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(0, 247, 255) 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(163, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(0, 238, 255) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
